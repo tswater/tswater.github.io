@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Examining Parameterizations of Potential Temperature Variance Across Varied Landscapes for Use in Earth System Models"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+permalink: /publication/2022_a
+excerpt: 'Earth system models (ESMs) and mesoscale models have come to employ increasingly complex parameterization schemes for the atmospheric boundary layer, requiring surface boundary conditions for numerous higher order turbulence statistics... ... The National Ecological Observation Network is used here to evaluate existing parameterizations for the surface boundary of PTV, note key deficiencies, and explore possible remedies. The results indicate that existing schemes are acceptable over a variety of surface conditions ...'
+date: 2022-04-12
+venue: 'Journal of Geophysical Research: Atmospheres'
+paperurl: 'https://doi.org/10.1029/2021JD036236'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Earth system models (ESMs) and mesoscale models have come to employ increasingly complex parameterization schemes for the atmospheric boundary layer, requiring surface boundary conditions for numerous higher order turbulence statistics. Of particular interest is the potential temperature variance (PTV), which is used not only as a boundary condition itself but also to close boundary conditions of other statistics. The existing schemes in ESMs largely rely on the assumptions of Monin-Obukhov similarity theory (MOST) and are not necessarily applicable over complex and heterogeneous surfaces where large scale circulations and roughness sub-layer effects may cause deviations from MOST. The National Ecological Observation Network is used here to evaluate existing parameterizations for the surface boundary of PTV, note key deficiencies, and explore possible remedies. The results indicate that existing schemes are acceptable over a variety of surface conditions provided the analysis of a priori filters out low frequency variability not associated with turbulent time scales. There was, however, significant inter-site variability in observed similarity constants and a significant bias when compared to the textbook values of these parameters. Existing models displayed the poorest performance over heterogeneous sites and rough landscapes. Attempts to use canopy structure and surface roughness characteristics to improve the results confirmed a relation between these variables and PTV but failed to significantly improve the predictive power of the models. The results did not find strong evidence indicating that large scale circulations caused substantial deviations from textbook models, although additional analysis is required to assess their full impacts.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Read More Here](https://doi.org/10.1029/2021JD036236)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Waterman, T., Bragg, A. D., Katul, G., & Chaney, N. (2022). Examining parameterizations of potential temperature variance across varied landscapes for use in earth system models. Journal of Geophysical Research: Atmospheres, 127, e2021JD036236. https://doi.org/10.1029/2021JD036236
