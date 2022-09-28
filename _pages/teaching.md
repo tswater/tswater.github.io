@@ -15,8 +15,9 @@ Instead of simply hearing a complex idea in a lecture, students who navigate thr
 Students also deserve respect as key members of the educational process rather than simply subjects or clients of instruction. To maximize student buy-in to the educational process, especially in the case of modern pedagogical methods that may be unfamiliar to some students [citation], **it is important that students understand why their instructor is teaching things a certain way, why they are being asked to rise to a specific challenge and how this will help them learn.** This can ideally generate a few desirable results for students including promoting metacognition (thinking about one's own learning) and a greater willingness to engage with a given method or activity since its purpose and benefits are made clear.
 
 ## Applications of Teaching Strategy
+<img src="../files/img_1.webp" alt="Image 1" style="float:left;max-width:40%;height:auto;padding:15px;"/>
 
-<img src="../files/img_1.webp" alt="Image 1" style="float:left;width:400px;height:400px;padding:15px;"/>
+
 My teaching experience began in 2018 when I took part in the UC Berkeley DeCal program where I developed the curriculum [link] and teaching materials for Water Resources Development, a 2 unit undergraduate course. Students learned applications of water treatment and management with a heavy focus on applications to small scale systems found in low density communities that lack modern water resources infrastructure. I developed a variety of course materials, including homework assignments, in-class activity plans, final projects, guest lectures with collaborators and more traditional lecture material. The homework assignments [link] were designed to be conceptual in nature, and called on students to make connections with the lecture material and their own knowledge, following my first goal above.
 
 
