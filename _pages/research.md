@@ -18,7 +18,7 @@ To model the lower atmosphere, we need accurate boundary conditions at the earth
 
 Learn more
 
-<img src="../files/img_1.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
+<img src="../files/circulations.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
 ## Boundary Layer Clouds and Secondary Circulations
 When there is a hot dry patch of land, next to a cool wet patch, circulations can begin to form. These circulations can begin to form when the scales of the patches are around 5 km or greater, and the literature has shown that these circulations can impact cloud development and patterning. Modern Earth System Models (ESMs) operate at a much larger scale than 5km. This work seeks to parameterize these circulations and their impacts on clouds without resorting to computationally intensive models.
 ### Key Results
