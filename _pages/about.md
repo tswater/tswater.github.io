@@ -12,5 +12,5 @@ I am a **computational hydrologist, atmospheric modeler, scientist, engineer, te
 
 Instrumental in achieving this goal is educating the next generation of industry leaders and future academic collaborators to instill a passion for our planet, and an in-depth understanding of the nuances of environmental data and modeling.  I work to create an environment that promotes both independent and collaborative learning, heavily focused on meaningful challenges, active participation, and project-based learning.
 
-I started my academic career with a B.S. in Civil and Environmental Engineering at U.C Berkeley working in the Dr. Sally Thompson ecohydrology lab, before coming to Duke in 2019 to work on a PhD focused on improving the coupling of the land and atmospheric systems in earth system models with Dr. Nathaniel Chaney under the NOAA Coupling of Land and Atmospheric Subgrid Parameterizations (CLASP) team.
+I started my academic career with a B.S. in Civil and Environmental Engineering at U.C Berkeley working in the Dr. Sally Thompson ecohydrology lab, before coming to Duke in 2019 to work on a PhD focused on improving the coupling of the land and atmospheric systems in earth system models with Dr. Nathaniel Chaney funded under the NOAA Coupling of Land and Atmospheric Subgrid Parameterizations (CLASP) team.
 
