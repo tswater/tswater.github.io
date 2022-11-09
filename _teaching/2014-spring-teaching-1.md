@@ -44,6 +44,9 @@ One of the things I most learned from the comments was that making certain lectu
 Materials
 ======
 [Syllabus](https://github.com/tswater/tswater.github.io/raw/master/files/Syllabus_CEE98.pdf) 
+
 [Homeworks](https://github.com/tswater/tswater.github.io/raw/master/files/HW_CEE98.pdf) 
+
 [Final Project Instructions](https://github.com/tswater/tswater.github.io/raw/master/files/FinalProjectInstructions.pdf)  -- [Results of Student Final Projects](https://github.com/tswater/tswater.github.io/raw/master/files/IWD_Final_Project.pdf) 
+
 [Full Evaluations](https://github.com/tswater/tswater.github.io/raw/master/files/CEE98_Eval.xlsx) 
