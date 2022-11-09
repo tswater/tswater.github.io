@@ -10,11 +10,17 @@ location: "City, Country"
 
 This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
+Course Description
 ======
 
-Heading 2
+Responsibilities
 ======
 
-Heading 3
+Evaluations
 ======
+
+Materials
+======
+[Course Github](https://github.com/chaneyn/ESDA_CEE690-02/tree/5650835a0ee2719383394012060f2c6928d70160)
+[Homework 1](https://github.com/tswater/tswater.github.io/raw/master/files/HW1_CEE690.pdf)
+[Full Evaluations](https://github.com/tswater/tswater.github.io/raw/master/files/CEE690_eval.pdf)
