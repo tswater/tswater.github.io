@@ -7,7 +7,11 @@ author_profile: true
 
 <img src="../files/img_2.webp" alt="Image 2" style="float:left;max-width:50%;height:auto;padding:15px;"/>
 ## Teaching Strategy
-####*"Tyler teaches for learning and understanding rather than assignment completion"*
+
+>*"Tyler teaches for learning and understanding rather than assignment completion"*
+>
+>-- Anonymous Student, Fluid Mechanics 2022
+
 I was drawn to study the natural world, at least partially, due to the vast interconnectedness of the systems that cycle water, carbon, and energy on our planet. To conceptually grasp these natural cycles requires a solid base in chemistry, biology, geology, physics and ecology. To extend beyond understanding into modeling and analyzing these phenomena expands the field into engineering, geospatial statistics, and advanced computational methods. Bringing these wide ranging concepts together can be a challenge for students, but with proper scaffolding and guidance success is as straightforward as possible for learners of all types. To achieve this end, my overall goals as an instructor are to (1) provide tools and support for **students to make connections between complex ideas themselves** rather than through direct instruction, (2) have every slide, homework, and project **serve a well justified educational purpose focused on student learning** above evaluation and (3) to be **explicit, open, and transparent about the learning process** with students in the classes I teach. 
 
 Instead of simply hearing a complex idea in a lecture, students who navigate through an instructor supported framework that encourages students to make key connections themselves or through discussions with peers will find greater success. **Student active learning provides a sense of accomplishment, a sense of responsibility for their own learning and makes it more likely they will retain the information.** Teaching methods including peer evaluation, peer instruction and group activities (see following section for details of past implementation) promote this mindset as a collective. Emphasizing well scaffolded projects, and homework assignments that emphasize synthesis and analysis over basic recollection of concepts promotes these ideas on a more individual level and provides for deeper learning experiences.
