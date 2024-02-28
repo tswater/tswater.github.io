@@ -8,6 +8,8 @@ date: 2022-08-01
 location: "Durham, NC USA"
 ---
 
+Served as a TA for an introductory course in fluids, teaching and leading the laboratory section of the course
+
 Course Description
 ======
 An introductory course in fluids; students learn the fundamental properties of static and flowing water and other itroductory topics in fluid mechanics including Navier-Stokes equation
