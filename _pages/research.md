@@ -32,7 +32,7 @@ When there is a hot dry patch of land, next to a cool wet patch, circulations ca
 Continental Scale Impact of Surface Heterogeneity
 =====
 
-<img src="../files/wrf_hethmg.webp" alt="Image 1" style="float:left;max-width:50%;height:auto;padding:15px;"/>
+<img src="../files/wrf_hethmg.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
 
 When ESMs and numerical weather prediction (NWP) schemes are run, they often operate with a higher resolution land surface model (LSM) which is then homogenized for exchange with the atmosphere. This "lost" heterogeneity can have atmospheric impacts locally and downstream. The impact this homogenization has, and how land surface heterogeneity is connected to atmospheric impact, is explored as part of this project.
 
@@ -66,7 +66,7 @@ In modern atmospheric models (NWP, ESMs, LES) Monin-Obukhov Similarity Theory (M
 Potential Temperature Variance in Surface Models
 =====
 
-<img src="../files/ptv.webp" alt="Image 1" style="float:left;max-width:50%;height:auto;padding:15px;"/>
+<img src="../files/ptv.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
 
 To model the lower atmosphere, we need accurate boundary conditions at the earth's surface. This work examines one of the surface boundary conditions of turbulence, potential temperature variance. The typical parameterizations used in modern atmospheric and Earth System Models are evaluated accross many varried terrain types, and constraints on model performance as well as proposed alterations to the existing parameterizations are evaluated.
 
