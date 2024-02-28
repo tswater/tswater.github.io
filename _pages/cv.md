@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-If the embedded PDF below does not load, you can <u><a href="https://github.com/tswater/tswater.github.io/raw/2717c5cebf5393648e6f890c0aa885b1f673f452/files/WatermanWebsiteCV.pdf">download it here.</a></u>
+If the embedded PDF below does not load, or you want a more up-to-date version, you can find it <u><a href="https://docs.google.com/document/d/150ombCZtxtxh8KivLMtvfellHn9Fp6gjNKZ_HPAbjg0/edit?usp=sharing">here.</a></u>
 <br/>
 
-<embed src="../files/WatermanWebsiteCV.pdf" type="application/pdf" width="100%" />
+Last update: February 2024
+<embed src="../files/WatermanWebsiteCV_2024_02.pdf" type="application/pdf" width="100%" />
