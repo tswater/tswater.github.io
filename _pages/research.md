@@ -10,6 +10,8 @@ I am an atmospheric modeler, boundary layer meteorologist, computational hydrolo
 
 My core research is outlined in the four categories below:
 
+
+
 Modeling the Impact of Mesoscale Circulations
 =====
 
@@ -17,13 +19,15 @@ Modeling the Impact of Mesoscale Circulations
 
 When there is a hot dry patch of land, next to a cool wet patch, circulations can begin to form. The literature has shown that these circulations can impact cloud development and patterning. Modern Earth System Models (ESMs) operate at a much larger scale than than the kilometer scale surface heterogeneity needed to form these circulations. This work uses large-eddy simulation (LES) output to parameterize these circulations and their impacts on clouds.
 
-### Key Results
-* CLUBB, a boundary layer scheme, is run as a single column model with two columns, one over the hot dry patch and another over the cold wet patch, for 92 one day simulations, with a modeled circulation connecting them
-* The two column model shows qualitative agreement with high resolution models, with increased cloud development when circulations are modeled, at a fraction of the compuational cost
+> ### Key Results
+> * CLUBB, a boundary layer scheme, is run as a single column model with two columns, one over the hot dry patch and another over the cold wet patch, for 92 one day simulations, with a modeled circulation connecting them
+> * The two column model shows qualitative agreement with high resolution models, with increased cloud development when circulations are modeled, at a fraction of the compuational cost
 
 ### Publications
 * [A Two-Column Model Parameterization for Subgrid Surface Heterogeneity Driven Circulations](https://tswater.github.io/publication/2022_a)
 * Related Work:  [Assessing the Atmospheric Response to Subgrid Surface Heterogeneity in the Single-column Community Earth System Model, version 2 (CESM2).](https://doi.org/10.1029/2022MS003517 )
+
+
 
 Continental Scale Impact of Surface Heterogeneity
 =====
@@ -40,6 +44,8 @@ When ESMs and numerical weather prediction (NWP) schemes are run, they often ope
 ### Publications 
 * First manuscript from the project in preparation for publication
 
+
+
 Turbulence Anisotropy to Improve Surface Exchange
 =====
 
@@ -52,6 +58,8 @@ In modern atmospheric models (NWP, ESMs, LES) Monin-Obukhov Similarity Theory (M
 
 ### Publications 
 * First Manuscript from the project in preparation for publication
+
+
 
 Potential Temperature Variance in Surface Models
 =====
