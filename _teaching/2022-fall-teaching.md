@@ -46,4 +46,4 @@ Q4: (4.77/5) Please evaluate the level of professionalism of your TA
 
 Materials
 ======
-[Full Evaluations](https://github.com/tswater/tswater.github.io/raw/master/files/CEE301_eval.zip)
+[Full Evaluations](https://github.com/tswater/tswater.github.io/raw/master/files/CE301_eval.zip)
