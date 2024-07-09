@@ -37,12 +37,12 @@ Continental Scale Impact of Surface Heterogeneity
 When ESMs and numerical weather prediction (NWP) schemes are run, they often operate with a higher resolution land surface model (LSM) which is then homogenized for exchange with the atmosphere. This "lost" heterogeneity can have atmospheric impacts locally and downstream. The impact this homogenization has, and how land surface heterogeneity is connected to atmospheric impact, is explored as part of this project.
 
 > ### Key Results
-> * Three summers of daily, 3km resolution WRF simulations across the continental United States (CONUS) with heterogeneous and homogenized surface fluxes show significant changes in precipitation statistics
+> * Three summers of daily, 3km resolution WRF simulations across the continental United States (CONUS) with heterogeneous and homogenized surface fluxes show significant changes in precipitation statistic
 > * Homogenization leads to increases in latent heat fluxes and rainfall, and a decrease in mesoscale turbulence in the boundary layer.
-> * Most significant imapacts are observed where bodies of water, (small lakes, large rivers, coastal regions) are homogenized with drier land
+> * Most significant imapacts are observed in water limited regiemes where bodies of water, (small lakes, large rivers, coastal regions) are homogenized with drier land
 
 > ### Publications 
-> * First manuscript from the project in preparation for publication
+> * [Surface Flux Homogenization and its Impacts on Convection Across CONUS](https://tswater.github.io/publication/2022_b)
 
 
 <br>
