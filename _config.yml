@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Tyler Waterman"
+  name             : "Dr. Tyler Waterman"
   avatar           : "profile.jpg"
-  bio              : "Postdoctoral Fellow studying Land-Atmosphere Interactions"
-  location         : "Durham, NC"
-  employer         : "Duke University"
+  bio              : "NSF Postdoctoral Fellow studying Land-Atmosphere Interactions"
+  location         : "Salt Lake City, UT"
+  employer         : "University of Utah"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=hGDdxw0AAAAJ&hl=en"
-  email            : "tyler.waterman@duke.edu"
+  email            : "tyswater@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
