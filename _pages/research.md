@@ -21,9 +21,11 @@ When there is a hot dry patch of land, next to a cool wet patch, circulations ca
 > ### Key Results
 > * CLUBB, a boundary layer scheme, is run as a single column model with two columns, one over the hot dry patch and another over the cold wet patch, for 92 one day simulations, with a modeled circulation connecting them
 > * The two column model shows qualitative agreement with high resolution models, with increased cloud development when circulations are modeled, at a fraction of the compuational cost
+> * Heterogeneity Driven Circulations can be measured with ground based lidar networks with magnitude of circulation correlated to surface heterogeneity
 
 > ### Publications
 > * [A Two-Column Model Parameterization for Subgrid Surface Heterogeneity Driven Circulations](https://tswater.github.io/publication/2022_a)
+> * [Leveraging Remote Sensing Observations to Analyze the Effect of Land Surface Heterogeneity on Mesoscale Atmospheric Circulations](https://tswater.github.io/publication/2025_d)
 > * Related Work:  [Assessing the Atmospheric Response to Subgrid Surface Heterogeneity in the Single-column Community Earth System Model, version 2 (CESM2).](https://doi.org/10.1029/2022MS003517 )
 
 
@@ -42,39 +44,40 @@ When ESMs and numerical weather prediction (NWP) schemes are run, they often ope
 > * Most significant imapacts are observed in water limited regiemes where bodies of water, (small lakes, large rivers, coastal regions) are homogenized with drier land
 
 > ### Publications 
-> * [Surface Flux Homogenization and its Impacts on Convection Across CONUS](https://tswater.github.io/publication/2022_b)
+> * [Surface Flux Homogenization and its Impacts on Convection Across CONUS](https://tswater.github.io/publication/2025_a)
 
 
 <br>
 
-Turbulence Anisotropy to Improve Surface Exchange
+Surface Layer Exchange and Turbulence Anisotropy
 =====
 
 <img src="../files/ani.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
 
-In modern atmospheric models (NWP, ESMs, LES) Monin-Obukhov Similarity Theory (MOST) is applied to determine exchange of heat, energy, and moisture from the land surface to the atmosphere, despite significant errors. Recent work from [Stiperski et. al](https://doi.org/10.1103/PhysRevLett.130.124001) has shown the anisotropy of turbulence may account for observed deviations from MOST. This project seeks to bridge the gap between the work of Stiperski, and the needs for application in modeling systems.
+In modern atmospheric models (NWP, ESMs, LES) Monin-Obukhov Similarity Theory (MOST) is applied to determine exchange of heat, energy, and moisture from the land surface to the atmosphere, despite significant errors. Recent work from [Stiperski et. al](https://doi.org/10.1103/PhysRevLett.130.124001) has shown the anisotropy of turbulence may account for observed deviations from MOST. This project seeks to bridge the gap between physics of surface layer turbulence, and the needs for application in modeling systems.
 
 > ### Key Results
 > * Relations developed by Stiperski have shown strong applicability over the vast and diverse [NEON eddy-covariance tower network](https://www.neonscience.org/field-sites) with little modification.
+> * Models of surface exchange are improved by considering anisotropy in novel scaling for the scalar variances (heat, water vapor, carbon dioxide) and velocity variances
+> * Anisotropy, and surface layer scaling, varies significantly by site characteristics 
 
 > ### Publications 
-> * First Manuscript from the project in preparation for publication
+> * [Evaluating Anisotropy-based Monin-Obukhov Similarity Theory over Canopies and Complex Terrain](https://tswater.github.io/publication/2025_b)
+> * [Impact of Heterogeneity on Scalar Flux Variance Relations Across Diverse Ecosystems](https://tswater.github.io/publication/2025_c)
+> * [Examining Parameterizations of Potential Temperature Variance Across Varied Landscapes for Use in Earth System Models](https://tswater.github.io/publication/2022_a)
 
 
 <br>
 
-Potential Temperature Variance in Surface Models
+Surface Heterogeneity and Biogeochemical Cycles
 =====
 
-<img src="../files/ptv.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
+<img src="../files/het_scales.webp" alt="heterogeneity and turbulence vs error" style="float:right;max-width:50%;height:auto;padding:15px;"/>
 
-To model the lower atmosphere, we need accurate boundary conditions at the earth's surface. This work examines one of the surface boundary conditions of turbulence, potential temperature variance. The typical parameterizations used in modern atmospheric and Earth System Models are evaluated accross many varried terrain types, and constraints on model performance as well as proposed alterations to the existing parameterizations are evaluated.
+Like many other earth system processes, the cycling of carbon, heat and water can be effected by the heterogeneity of the surface. This area of work seeks to leverage understanding of ecohydrology, boundary layer physics, and large environmental datasets, to examine how spatial patterns at the surface affect our models and measurements of carbon and moisture exchange between the biosphere, atmosphere and hydrosphere. 
 
 > ### Key Results
-> * Models of potential temperature variance in the surface layer based on similarity theory were evaluated using data from 39 varied sites over 2.5 years
-> * Existing schemes perform well across most surfaces, although the data shows a significant bias in the values of the similarity constants
-> * Canopy structure and surface heterogeneity drive a large portion of inter-site variability in model performance
+> * For highly heterogeneous surfaces, traditional surface layer theory fails when turbulent lengthscales are large
 
 > ### Publications
-> * [Examining Parameterizations of Potential Temperature Variance Across Varied Landscapes for Use in Earth System Models](https://tswater.github.io/publication/2022_a)
-
+> * [Impact of Heterogeneity on Scalar Flux Variance Relations Across Diverse Ecosystems](https://tswater.github.io/publication/2025_c)
