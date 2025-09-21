@@ -72,7 +72,7 @@ In modern atmospheric models (NWP, ESMs, LES) Monin-Obukhov Similarity Theory (M
 Surface Heterogeneity and Biogeochemical Cycles
 =====
 
-<img src="../files/het_scales.webp" alt="heterogeneity and turbulence vs error" style="float:right;max-width:50%;height:auto;padding:15px;"/>
+<img src="../files/het_scales.png" alt="heterogeneity and turbulence vs error" style="float:right;max-width:50%;height:auto;padding:15px;"/>
 
 Like many other earth system processes, the cycling of carbon, heat and water can be effected by the heterogeneity of the surface. This area of work seeks to leverage understanding of ecohydrology, boundary layer physics, and large environmental datasets, to examine how spatial patterns at the surface affect our models and measurements of carbon and moisture exchange between the biosphere, atmosphere and hydrosphere. 
 
