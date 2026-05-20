@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tyler Waterman"
+title                    : "Waterman Lab"
 title_separator          : "-"
 name                     : &name "Tyler Waterman"
 description              : &description "personal description"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr. Tyler Waterman"
-  avatar           : "profile.jpg"
-  bio              : "NSF Postdoctoral Fellow studying Land-Atmosphere Interactions"
-  location         : "Salt Lake City, UT"
-  employer         : "University of Utah"
+  name             : "Tyler Waterman"
+  avatar           : 
+  bio              : "Assistant Professor<br>Environmental Engineering<br>Union College"
+  location         : "Schenectady, NY"
+  employer         : "Union College"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=hGDdxw0AAAAJ&hl=en"
-  email            : "tyswater@gmail.com"
+  email            : "watermat@union.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

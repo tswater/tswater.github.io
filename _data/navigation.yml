@@ -1,12 +1,15 @@
 # main links links
 main:
+  - title: "People"
+    url: /people/
+
   - title: "Research"
     url: /research/
 
   - title: "Teaching"
     url: /teaching/ 
     
-  - title: "Publications and Talks"
+  - title: "Publications"
     url: /publications/  
     
   - title: "CV"

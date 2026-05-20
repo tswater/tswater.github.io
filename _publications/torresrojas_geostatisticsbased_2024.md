@@ -1,0 +1,15 @@
+---
+title: "A Geostatistics‐Based Tool to Characterize Spatio‐Temporal Patterns of Remotely Sensed Land Surface Temperature Fields Over the Contiguous United States"
+collection: publications
+permalink: /publication/torresrojas_geostatisticsbased_2024
+date: 2024-09-01
+venue: 'Journal of Geophysical Research: Atmospheres'
+authlist: 'Torres‐Rojas, L., **Waterman, T.**, Cai, J., Zorzetto, E., Wainwright, H. M., Chaney, N. W.'
+paperurl: 'https://doi.org/10.1029/2023JD040679'
+citation: 'Torres‐Rojas, L., Waterman, T., Cai, J., Zorzetto, E., Wainwright, H. M., Chaney, N. W. (2024). A Geostatistics‐Based Tool to Characterize Spatio‐Temporal Patterns of Remotely Sensed Land Surface Temperature Fields Over the Contiguous United States. Journal of Geophysical Research: Atmospheres, 129, e2023JD040679'
+feature: 'no'
+ftimg: '../images/flux_tower.webp'
+excerpt: ">Surface fluxes and states can recur and remain consistent across various spatial and temporal scales, forming space‐time patterns. Quantifying and understanding the observed patterns is desirable, as they provide information about the dynamics of the processes involved. This study introduces the empirical spatiotemporal covariance function and a corresponding parametric covariance ..."
+---
+**Abstract**
+Surface fluxes and states can recur and remain consistent across various spatial and temporal scales, forming space‐time patterns. Quantifying and understanding the observed patterns is desirable, as they provide information about the dynamics of the processes involved. This study introduces the empirical spatiotemporal covariance function and a corresponding parametric covariance function as tools to identify and characterize spatio‐temporal patterns in remotely sensed fields. The method is demonstrated using 2 km hourly GOES‐16/17 land surface temperature (LST) data over the Contiguous United States by splitting the area into 1.0° × 1.0° domains. The summer day‐time LST ESTCFs for 2018 to 2022 are derived for each domain, and a parametric covariance model is fitted. Clustering analysis is applied to detect areas with similar spatio‐temporal LST patterns. Six main zones within CONUS are identified and characterized based on their variance and temporal and spatial characteristic length scales (i.e., scales for which the temperature variations are temporally and spatially related), respectively: (a) Eastern plains with 3 K2, ∼6 hr, and 0.15°, (b) Gulf of California with 60 K2, ∼8 hr, and 0.34°, (c) mountains and coasts transition 1 with 16 K2, ∼11 hr, and 0.25°, (d) central US, Midwest, and South cities with 5.5 K2, ∼8 hr, and ∼0.2°, (e) mountains and coasts transition 2 with ∼10 K2, ∼8 hr, and 0.2°, and (f) largest mountains and coastlines with ∼19 K2, ∼13 hr, and 0.3°. The tools introduced provide a pathway to formally identify and summarize the spatio‐temporal patterns observed in remotely sensed fields and relate those to more complex processes within the Soil‐Vegetation‐Atmosphere System.

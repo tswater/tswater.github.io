@@ -1,0 +1,15 @@
+---
+title: "Assessing the Atmospheric Response to Subgrid Surface Heterogeneity in the Single-Column Community Earth System Model Version 2 (CESM2)"
+collection: publications
+permalink: /publication/fowler_assessing_2024
+date: 2024-01-01
+venue: 'Journal of Advances in Modeling Earth Systems'
+authlist: 'Fowler, Megan D., Neale, Richard B., **Waterman, Tyler**, Lawrence, David M., Dirmeyer, Paul A., Larson, Vincent E., Huang, Meng, Simon, Jason S., Truesdale, John, Chaney, Nathaniel W.'
+paperurl: 'https://doi.org/10.1029/2022MS003517'
+citation: 'Fowler, Megan D., Neale, Richard B., Waterman, Tyler, Lawrence, David M., Dirmeyer, Paul A., Larson, Vincent E., Huang, Meng, Simon, Jason S., Truesdale, John, Chaney, Nathaniel W. (2024). Assessing the Atmospheric Response to Subgrid Surface Heterogeneity in the Single-Column Community Earth System Model Version 2 (CESM2). Journal of Advances in Modeling Earth Systems, 16, e2022MS003517'
+feature: 'no'
+ftimg: '../images/heterogen.webp'
+excerpt: ">Land-atmosphere interactions are central to the evolution of the atmospheric boundary layer and the subsequent formation of clouds and precipitation. Existing global climate models represent these connections with bulk approximations on coarse spatial scales, but observations suggest that small-scale variations in surface characteristics and co-located turbulent and momentum fluxes can ..."
+---
+**Abstract**
+Land-atmosphere interactions are central to the evolution of the atmospheric boundary layer and the subsequent formation of clouds and precipitation. Existing global climate models represent these connections with bulk approximations on coarse spatial scales, but observations suggest that small-scale variations in surface characteristics and co-located turbulent and momentum fluxes can significantly impact the atmosphere. Recent model development efforts have attempted to capture this phenomenon by coupling existing representations of subgrid-scale (SGS) heterogeneity between land and atmosphere models. Such approaches are in their infancy and it is not yet clear if they can produce a realistic atmospheric response to surface heterogeneity. Here, we implement a parameterization to capture the effects of SGS heterogeneity in the Community Earth System Model (CESM2), and compare single-column simulations against high-resolution Weather Research and Forecasting (WRF) large-eddy simulations (LESs), which we use as a proxy for observations. The CESM2 experiments increase the temperature and humidity variances in the lowest atmospheric levels, but the response is weaker than in WRF-LES. In part, this is attributed to an underestimate of surface heterogeneity in the land model due to a lack of SGS meteorology, a separation between deep and shallow convection schemes in the atmosphere, and a lack of explicitly represented mesoscale secondary circulations. These results highlight the complex processes involved in capturing the effects of SGS heterogeneity and suggest the need for parameterizations that communicate their influence not only at the surface but also vertically.

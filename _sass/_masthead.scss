@@ -4,6 +4,7 @@
 
 .masthead {
   position: relative;
+  background: $mast-color;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -14,6 +15,8 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    // width: 100%;
+    // max-width: none;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 

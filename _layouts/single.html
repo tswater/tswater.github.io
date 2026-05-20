@@ -36,24 +36,45 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          <span class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></span>
         {% endif %}
         
              
         {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+        <br><br><span>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></span>
         {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+        <br><br><span>Recommended citation: {{ page.citation }} </span>
         {% endif %}
     
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        {% if page.ftimg %}
+          <style>
+          @media (max-width: 800px) {
+            .two-col {
+              display: block !important;
+            }
+            .col {
+               width: 100% !important;
+               float: none !important;
+            }
+          }
+        </style>
+        <hr>  
+        <div class="two-col" style="display:flex; gap:1em;">
+              <div class="col" style="width:50%">
+              {{content}}
+              </div>
+              <div class="col" style="width:50%;">
+              <img src="{{page.ftimg}}" alt="Featured Image from Publication" style="width:100%;display:block;height:auto;"/>
+              </div>
+          </div>
+        {% else %}
+           {{ content }}
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
