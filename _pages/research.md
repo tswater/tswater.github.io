@@ -4,80 +4,210 @@ title: "Research"
 excerpt: "My Research"
 author_profile: true
 ---
-<img src="../files/agu_sign.webp" alt="Image of Dr. Waterman with fellow students and his undergraduate mentee while a PhD student. Image taken at the AGU Conference, 2023" style="float:left;max-width:100%;height:auto;padding:1px;"/>
+<style>
+  .excerpt-wrapper {
+    position: relative;
+    margin-left:2em;
+  }
 
-I am an atmospheric modeler, boundary layer meteorologist, computational hydrologist, engineer, teacher and mentor working to improve global understanding of the connection between the land surface we live on and the atmosphere above us. My research aims to build models for water, carbon and energy that apply in data rich uniform cropland, or poorly instrumented, vast mountain forests, allowing environmental scientists, modelers and decision makers in all parts of our earth to make informed decisions. To this end, I work collaboratively to harness a wealth of satellite and in-situ data, high resolution models, fundamental physics, and modern machine learning methods to improve predictions of how water, energy, and carbon moves across the land-atmosphere continuum, especially in complex terrain and heterogeneous landscapes.
+  .excerpt {
+    max-height: 20em; /* collapsed height */
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    position: relative;
+  }
 
-My core research is outlined in the four categories below:
+  .excerpt > *:first-child {
+    margin-top: 0;
+  }
+
+  /* Fade-out gradient */
+  .excerpt::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6em;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  /* When expanded, remove gradient */
+  .excerpt.expanded::after {
+    opacity: 0;
+  }
+
+  /* Custom button */
+  .read-more-btn {
+    margin-top: 5px;
+    padding: 5px 5px;
+    background: white;
+    color: #313436;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+  }
+
+  .read-more-btn:hover {
+    background: #F2F3F3;
+  }
+</style>
+<style>
+  .two-col {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .text-col {
+    flex: 4;
+  }
+
+  .image-col {
+    flex: 7;
+  }
+
+  .image-col img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  ul {
+      margin-top:0;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 2px;
+  }
+
+  /* Stack on small screens */
+  @media (max-width: 500px) {
+    .two-col {
+      flex-direction: column;
+    }
+  }
+</style>
+<!-- STYLING DONE, CONTENT BELOW -->
+My research spans the fields of hydrology, atmospheric science, natural hazard prediction, weather, climate, geospatial analysis, and the physics of fluids. My research combines a drive for understanding the statistics of complex spatial patterns, a passion for the processes that drive interaction between the land and the atmosphere, and a penchant for connecting diverse environmental datasets to improvements in model representation of the Earth System and Natural Hazards. I am eager to engage with any students and researchers that are looking to use atmospheric modeling (LES, NWP, ESM, weather, climate and air pollution prediction models), meteorological tower data, and/or geospatial analysis to answer key environmental and engineering questions, especially when focused on the interaction between the land surface (topography, land-use, human development, vegetation, soil moisture) and the atmosphere. Within this broad group, my focus areas are:
+<div class="excerpt-wrapper">
+  <div class="excerpt">
+     <h2>Turbulence and Exchange Between the Land and Atmosphere</h2>
+     <div class="two-col">
+        <div class="text-col">
+            <!-- Teaser Text Here -->
+            <br><b>Key Topics:</b> Turbulence, flux tower, evaporation, ecohydrology, carbon cycle, fluid dynamics<br><br>
+            <b>Key Questions:</b> How can we understand, and better predict, the exchange of energy, water, carbon and pollutants between the land and atmosphere in complex ecosystems?
+        </div>
+        <div class="image-col">
+            <figure style="width:60%;float:left;">
+                <img src="../images/r1.webp" alt="Example image">
+                <figcaption>Comparison of error from traditional surface flux-variance exchange models (black lines) and modified models from SC23 and Waterman 2026 (colored bars) for sites in the National Ecological Observation Network</figcaption>
+            </figure>
+            <img src="../images/flux_tower_thin.webp" alt="Example image" style="float:right;width:35%;padding:5px">
+        </div>
+    </div>
+    <!-- More Text Here -->
+    <b>Summary of Research:</b> The exchange of mass (water, carbon) and energy (heat, momentum) from the surface to the atmosphere sets limiting conditions for weather and climate models, controls pollutant concentrations and is vital in understanding ecohydrology. The parameterizations for surface exchange in nearly all Land Surface Models (LSMs) used in Earth System Models (ESMs) to analyze climate and weather came from turbulent flux tower analysis. Tower networks, however, have limited spatial coverage. This pillar is focused on combining satellite and in situ data to make tower data more useful, understanding more about the fundamentals of turbulent fluids, and improving parameterizations for weather, climate, and natural hazard prediction.
+    <br><br><b>Some Project Areas and Broad Questions</b><ul>
+    <li>How sensitive are weather, climate, and pollution spread modeling to how we represent surface exchange?</li>
+    <li>Do idealized theories for surface exchange hold across different temporal scales?</li>
+    <li>What are the key differences in behavior of water, carbon and energy exchange between different ecosystems? What controls and causes these differences?</li></ul>
+    <b>Selected Publications</b><ul>
+    <li><a href="/publication/waterman_impact_2026"> Waterman, T., Stiperski, I., Torres-Rojas, L., Calaf, M. (2026). Impact of heterogeneity on scalar flux variance relations across diverse ecosystems. Agricultural and Forest Meteorology, 384, 111167</a></li>
+    <li><a href="/publication/waterman_evaluating_2026">Waterman, Tyler S., Stiperski, Ivana, Chaney, Nathaniel, Calaf, Marc (2026). Evaluating anisotropy-based Monin–Obukhov similarity theory over canopies and complex terrain. Quarterly Journal of the Royal Meteorological Society, e70206</a></li></ul>
+  </div>
+  <button class="read-more-btn">Read more</button>
+</div>
+<br>
 
 
-Modeling the Impact of Mesoscale Circulations
-=====
-
-<img src="../files/circulations.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
-
-When there is a hot dry patch of land, next to a cool wet patch, circulations can begin to form. The literature has shown that these circulations can impact cloud development and patterning. Modern Earth System Models (ESMs) operate at a much larger scale than than the kilometer scale surface heterogeneity needed to form these circulations. This work uses large-eddy simulation (LES) output to parameterize these circulations and their impacts on clouds.
-
-> ### Key Results
-> * CLUBB, a boundary layer scheme, is run as a single column model with two columns, one over the hot dry patch and another over the cold wet patch, for 92 one day simulations, with a modeled circulation connecting them
-> * The two column model shows qualitative agreement with high resolution models, with increased cloud development when circulations are modeled, at a fraction of the compuational cost
-> * Heterogeneity Driven Circulations can be measured with ground based lidar networks with magnitude of circulation correlated to surface heterogeneity
-
-> ### Publications
-> * [A Two-Column Model Parameterization for Subgrid Surface Heterogeneity Driven Circulations](https://tswater.github.io/publication/2022_a)
-> * [Leveraging Remote Sensing Observations to Analyze the Effect of Land Surface Heterogeneity on Mesoscale Atmospheric Circulations](https://tswater.github.io/publication/2025_d)
-> * Related Work:  [Assessing the Atmospheric Response to Subgrid Surface Heterogeneity in the Single-column Community Earth System Model, version 2 (CESM2).](https://doi.org/10.1029/2022MS003517 )
-
+<div class="excerpt-wrapper">
+  <div class="excerpt">
+     <h2>The Land-Atmosphere Impact of Complex Spatial Patterns</h2>
+     <div class="two-col">
+        <div class="text-col">
+            <!-- Teaser Text Here -->
+            <br><b>Key Topics:</b> remote sensing, geospatial analysis, natural hazards, environmental data, land use change<br><br>
+            <b>Key Questions:</b> What impact do complex patterns of the land surface have on natural hazards (urban heat island, flooding, pollution spread) and the atmosphere and how do humans, engineers, and urban planners influence these patterns? Can we better quantify the key scales for impact?
+        </div>
+        <div class="image-col">
+            <figure style="width:40%;float:left;">
+                <img src="../images/lai.webp" alt="Example image">
+                <figcaption>1 meter resolution map of leaf area index (vegetation) over a site in Washington state used to evaluate impacts of spatial patterns on carbon exchange</figcaption>
+            </figure>
+            <figure style="width:40%;float:right;">
+                <img src="../images/sarah_colorbar.gif" alt="Image" style="padding:0;margin:0;">
+                <figcaption>Change in temperature between a realistic configuration and an urban greening configuration during a heatwave in Dallas (Sarah Bailey, Undergraduate, Duke University)</figcaption>
+            </figure>
+        </div>
+    </div>
+    <!-- More Text Here -->
+    <b>Summary of Research:</b> Topography, vegetation, soil and atmospheric properties vary spatially at scales ranging from centimeters to hundred of kilometers. Quantifying complex environmental spatial patterns in a way that is relevant for engineering, models and natural hazards can be challenging as human scales (irrigation, levees, fire breaks, urban sprawl, etc.) must be considered as well. Research in this pillar focuses on quantifying complex geometry in a way that is relevant for natural processes.
+    <br><br><b>Some Project Areas and Broad Questions</b><ul>
+    <li>Understanding how different patterns of urban greening, adding trees and other vegetation to urban areas, may reduce the impacts of heat waves.</li>
+    <li>Do spatial patterns significantly affect our measurements for surface exchange? Can we quantify this?</li>
+    <li>Can we better represent engineered systems (solar power, irrigation, urban development) in large scale models?</li>
+    <li>What are key spatio-temporal characteristics of precipitation and natural hazards? What controls these spatio-temporal characteristics?</li></ul>
+    <b>Selected Publications</b><ul>
+    <li><a href="/publication/waterman_impact_2026">Waterman, T., Stiperski, I., Torres-Rojas, L., Calaf, M. (2026). Impact of heterogeneity on    scalar flux variance relations across diverse ecosystems. Agricultural and Forest Meteorology, 384, 111167</a></li>
+    <li><a href="/publication/torresrojas_geostatisticsbased_2024">Torres‐Rojas, L., Waterman, T., Cai, J., Zorzetto, E., Wainwright, H. M., Chaney, N. W. (2024). A Geostatistics‐Based Tool to Characterize Spatio‐Temporal Patterns of Remotely Sensed Land Surface Temperature Fields Over the Contiguous United States. Journal of Geophysical Research: Atmospheres, 129, e2023JD040679</a></li></ul>
+  </div>
+  <button class="read-more-btn">Read more</button>
+</div>
 
 <br>
 
-Continental Scale Impact of Surface Heterogeneity
-=====
-
-<img src="../files/wrf_hethmg.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
-
-When ESMs and numerical weather prediction (NWP) schemes are run, they often operate with a higher resolution land surface model (LSM) which is then homogenized for exchange with the atmosphere. This "lost" heterogeneity can have atmospheric impacts locally and downstream. The impact this homogenization has, and how land surface heterogeneity is connected to atmospheric impact, is explored as part of this project.
-
-> ### Key Results
-> * Three summers of daily, 3km resolution WRF simulations across the continental United States (CONUS) with heterogeneous and homogenized surface fluxes show significant changes in precipitation statistic
-> * Homogenization leads to increases in latent heat fluxes and rainfall, and a decrease in mesoscale turbulence in the boundary layer.
-> * Most significant imapacts are observed in water limited regiemes where bodies of water, (small lakes, large rivers, coastal regions) are homogenized with drier land
-
-> ### Publications 
-> * [Surface Flux Homogenization and its Impacts on Convection Across CONUS](https://tswater.github.io/publication/2025_a)
-
-
-<br>
-
-Surface Layer Exchange and Turbulence Anisotropy
-=====
-
-<img src="../files/ani.webp" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:15px;"/>
-
-In modern atmospheric models (NWP, ESMs, LES) Monin-Obukhov Similarity Theory (MOST) is applied to determine exchange of heat, energy, and moisture from the land surface to the atmosphere, despite significant errors. Recent work from [Stiperski et. al](https://doi.org/10.1103/PhysRevLett.130.124001) has shown the anisotropy of turbulence may account for observed deviations from MOST. This project seeks to bridge the gap between physics of surface layer turbulence, and the needs for application in modeling systems.
-
-> ### Key Results
-> * Relations developed by Stiperski have shown strong applicability over the vast and diverse [NEON eddy-covariance tower network](https://www.neonscience.org/field-sites) with little modification.
-> * Models of surface exchange are improved by considering anisotropy in novel scaling for the scalar variances (heat, water vapor, carbon dioxide) and velocity variances
-> * Anisotropy, and surface layer scaling, varies significantly by site characteristics 
-
-> ### Publications 
-> * [Evaluating Anisotropy-based Monin-Obukhov Similarity Theory over Canopies and Complex Terrain](https://tswater.github.io/publication/2025_b)
-> * [Impact of Heterogeneity on Scalar Flux Variance Relations Across Diverse Ecosystems](https://tswater.github.io/publication/2025_c)
-> * [Examining Parameterizations of Potential Temperature Variance Across Varied Landscapes for Use in Earth System Models](https://tswater.github.io/publication/2022_a)
+<div class="excerpt-wrapper">
+  <div class="excerpt">
+     <h2>Multi-scale Prediction for Weather, Climate and Air Quality</h2>
+     <div class="two-col">
+        <div class="text-col">
+            <!-- Teaser Text Here -->
+            <br><b>Key Topics:</b> rainfall, exchange, circulations, clouds, pollution spread, improving prediction<br><br>
+            <b>Key Questions:</b> How do we reconcile physics and data when our scale for predicting the environment does not match with the scales of key processes or the scales of  human/engineering/environmental impact?
+        </div>
+        <div class="image-col">
+            <figure style="width:40%;float:left;">
+                <img src="../images/fig8.png" alt="Example image">
+                <figcaption>Change in evaporative fraction, the portion of going into heat versus evaporation, between a simulation with and without flux averaging, a common simplification applied in large scale models. Results show this common averaging causes overestimates of evaporation (higher EF)</figcaption>
+            </figure>
+            <img src="../images/20170716.gif" alt="Example image" style="float:right;width:60%;padding:5px">
+        </div>
+    </div>
+    <!-- More Text Here -->
+    <b>Summary of Research:</b> Spatial heterogeneity, and how complex geometries affect processes, is challenging to understand in the natural world. In large scale Earth System Models additional challenges present themselves. In particular, many inputs and model components operate at different spatial scales and resolutions, creating challenges when they are connected. Specifically, many models have different grid resolutions for the land, ocean and atmospheric components as development and research into each has proceeded separately. The consequences need to be understood and addressed.
+    <br><br><b>Some Project Areas and Broad Questions</b><ul>
+    <li>What errors are caused in weather/climate prediction by the mismatch in scales between the land and atmosphere?</li>
+    <li>Will higher resolution precipitation in models yield better prediction for localized drought, agriculture, and ecosystem modeling?</li>
+    <li>Can we reliably predict the impact of heterogeneity driven circulations (i.e. sea breeze)?</li>
+    <li>Can we use LiDAR to measure 3 dimensional flows in the atmosphere that, previously, have not been quantified directly?</li>
+    <li>How do local flows and heterogeneity impact the initiation of convective thunderstorms?</li></ul>
+    <b>Selected Publications</b><ul>
+    <li><a href="/publication/waterman_surface_2025">Waterman, Tyler, Dirmeyer, Paul, Chaney, Nathaniel (2025). Surface Flux Homogenization and its Impacts on Convection Across CONUS. Journal of Hydrometeorology</a></li>
+    <li><a href="/publication/waterman_twocolumn_2024">Waterman, T., Bragg, A. D., Hay‐Chapman, F., Dirmeyer, P. A., Fowler, M. D., Simon, J., Chaney, N. (2024). A Two‐Column Model Parameterization for Subgrid Surface Heterogeneity Driven Circulations. Journal of Advances in Modeling Earth Systems, 16, e2023MS003936</a></li>
+    <li><a href="/publication/waterman_satellite_2026">Waterman, T., Germ, P., Calaf, M., Pardyjak, E., Chaney, N. (2026). A Satellite Remote Sensing and Doppler LiDAR-based Framework for Evaluating Mesoscale Flows Driven by Surface Heterogeneity. Preprint.</a></li></ul>
+  </div>
+  <button class="read-more-btn">Read more</button>
+</div>
 
 
-<br>
+<script>
+document.querySelectorAll('.read-more-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const wrapper = button.closest('.excerpt-wrapper');
+    const excerpt = wrapper.querySelector('.excerpt');
+    const expanded = excerpt.classList.toggle('expanded');
 
-Surface Heterogeneity and Biogeochemical Cycles
-=====
-
-<img src="../files/het_scales.png" alt="heterogeneity and turbulence vs error" style="float:right;max-width:50%;height:auto;padding:15px;"/>
-
-Like many other earth system processes, the cycling of carbon, heat and water can be effected by the heterogeneity of the surface. This area of work seeks to leverage understanding of ecohydrology, boundary layer physics, and large environmental datasets, to examine how spatial patterns at the surface affect our models and measurements of carbon and moisture exchange between the biosphere, atmosphere and hydrosphere. 
-
-> ### Key Results
-> * For highly heterogeneous surfaces, traditional surface layer theory fails when turbulent lengthscales are large
-
-> ### Publications
-> * [Impact of Heterogeneity on Scalar Flux Variance Relations Across Diverse Ecosystems](https://tswater.github.io/publication/2025_c)
+    if (expanded) {
+      excerpt.style.maxHeight = excerpt.scrollHeight + "px";
+      button.textContent = "Read less";
+    } else {
+      excerpt.style.maxHeight = "20em";
+      button.textContent = "Read more";
+    }
+  });
+});
+</script>

@@ -48,23 +48,48 @@
 
     {% if post.excerpt and site.read_more != 'enabled' %}
         {% if post.ftimg %}
-          <style>
-          @media (max-width: 100px) {
+        <style>
+          .two-col {
+            display: flex;
+            gap: 1rem;
+          }
+
+          .text-col {
+            flex: 8;
+          }
+
+          .image-col {
+            flex: 1;
+            display: flex;
+            align-items: center;
+          }
+
+          .image-col img {
+            width: 100%;
+            height: auto;
+            display: block;
+          }
+
+          /* Stack on small screens */
+          @media (max-width: 500px) {
             .two-col {
-              display: block !important;
+              flex-direction: column;
             }
-            .col {
-              width: 100% !important; 
-              float: none !important;
+            .image-col img {
+              width: 100%;
+              height: auto; /* natural height on mobile */
             }
           }
         </style>
-        <div class="two-col" style="display:flex; gap:1em;">
-            <div class="col" style="width:10%;">
-              <img src="{{post.ftimg}}" alt="Featured Image from Publication" style="display:block;width:100%;height:auto;"/>
-            </div>  
-            <div class="col" style="width: 90%; margin-top: -15px; margin-bottom: -5px; padding: 0px;"><span class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |    remove: '<p>' | remove: '</p>' | remove:'<br>'}}</span></div>
+
+        <div class="two-col">
+          <div class="image-col">
+            <img src="{{post.ftimg}}" alt="Featured Image from Publication" style="display:block;width:100%;height:auto;"/>
           </div>
+          <div class="text-col">
+            <span class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | remove:'<br>'}}</span>
+          </div>
+        </div>
         {% else %}
            <div style="margin-top: -15px; margin-bottom: -5px; padding: 0px;"><span class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |    remove: '<p>' | remove: '</p>' | remove:'<br>'}}</span></div>
         {% endif %}

@@ -8,7 +8,7 @@ authlist: 'Lau, Rachael, Seguí, Carolina, **Waterman, Tyler**, Chaney, Nathanie
 paperurl: 'https://doi.org/10.5194/nhess-24-3651-2024'
 citation: 'Lau, Rachael, Seguí, Carolina, Waterman, Tyler, Chaney, Nathaniel, Veveakis, Manolis (2024). InSAR-informed in situ monitoring for deep-seated landslides: insights from El Forn (Andorra). Natural Hazards and Earth System Sciences, 24, 3651--3661'
 feature: 'no'
-ftimg: '../images/'
+ftimg: '../images/heterogen.webp'
 excerpt: ">Monitoring deep-seated landslides via borehole instrumentation can be an expensive and labor-intensive task. This work focuses on assessing the fidelity of interferometric synthetic-aperture radar (InSAR) as it relates to sub-surface ground motion monitoring, as well as understanding uncertainty in modeling active landslide displacement for the case study of the in ..."
 ---
 **Abstract**
